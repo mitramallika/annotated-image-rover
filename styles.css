@@ -19,9 +19,15 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
+html, h1 {
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center
+}
+
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 16px;
+    font-size: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -98,34 +104,64 @@ img {
 /*****************************
 * Dot customizations go here
 ******************************/
-.dot.orange {
-    background-color: rgba(255, 133, 25, 0.65)
+.dot.red {
+    background-color: rgba(255, 0, 0, 0.65)
 }
 
-.dot.blue {
-    background-color: rgba(0, 93, 255, 0.65)
+.dot.purple {
+    background-color: rgba(255, 13, 255, 0.65)
 }
 
 .dot.green {
-    background-color: rgba(12, 232, 196, 0.65)
+    background-color: rgba(27, 85, 16, 0.65);
 }
 
-.dot.solar {
-    top: 53%;
+.dot.blue {
+    background-color: rgba(35, 12, 232, 0.65);
+}
+
+.dot.orange {
+    background-color: rgba(232, 169, 12, 0.65);
+}
+
+.dot.turquoise {
+    background-color: rgba(13, 209, 180, 0.65);
+}
+
+.dot.harper {
+    top: 25%;
     left: 25%;
-    transform: translate(-25%, -53%);
+    transform: translate(-25%, -25%);
 }
 
-.dot.camera {
-    top: 15%;
-    left: 35%;
-    transform: translate(-35%, -15%);
+.dot.kids {
+    top: 70%;
+    left: 65%;
+    transform: translate(-65%, -70%);
 }
 
-.dot.wheels {
-    top: 75%;
-    left: 57%;
-    transform: translate(-57%, -75%);
+.dot.teacher {
+    top: 30%;
+    left: 75%;
+    transform: translate(-75%, -30%);
+}
+
+.dot.student {
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+}
+
+.dot.parent {
+    top: 40%;
+    left: 10%;
+    transform: translate(-10%, -40%);
+}
+
+.dot.never {
+    top: 50%;
+    left: 85%;
+    transform: translate(-85%, -50%);
 }
 
 /*********************************
